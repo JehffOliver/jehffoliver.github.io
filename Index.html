@@ -6,6 +6,22 @@
     <title>Meu Portfólio</title>
     <link rel="stylesheet" href="estilo.css">
 </head>
+<script>
+    function mostrarSecao(id) {
+        // Ocultar todas as seções
+        var secoes = document.getElementsByTagName("section");
+        for (var i = 0; i < secoes.length; i++) {
+            secoes[i].style.display = "none";
+        }
+
+        // Exibir a seção com o ID especificado
+        var secao = document.getElementById(id);
+        if (secao) {
+            secao.style.display = "block";
+        }
+    }
+</script>
+
 <body>
     
     <header>
@@ -16,11 +32,13 @@
     <div>
         <img src="imagens/1000017446.png" alt="foto-perfil" class="imagem_perfil">
     </div>
+    <h1>Jefferson de Oliveira</h1>
+    <h3 class="sub">Programador Full Stack</h3>
     <nav>
         <ul>
-            <li><a href="#sobre">Sobre Mim</a></li>
-            <li><a href="#projetos">Projetos</a></li>
-            <li><a href="#contato">Contato</a></li>
+            <li><a href="javascript:void(0);" onclick="mostrarSecao('sobre')">Sobre Mim</a></li>
+            <li><a href="javascript:void(0);" onclick="mostrarSecao('projetos')">Projetos</a></li>
+            <li><a href="javascript:void(0);" onclick="mostrarSecao('contato')">Contato</a></li>
         </ul>
     </nav>
     <section id="sobre">

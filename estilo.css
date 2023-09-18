@@ -16,7 +16,7 @@ header {
 /* Estilo para a navegação */
 nav ul {
     list-style-type: none;
-    margin: 1px;
+    margin: 0px;
     padding: 0px;
     text-align: center;
 }
@@ -69,4 +69,18 @@ section {
 .faixa{
     background-color: #e0dede;
     padding: 10% 10% 10% 10%;
+}
+
+h1{
+    background-color: #c53131;
+    text-align: center;
+    position: relative;
+    bottom: 100px;
+}
+
+h3 sub{
+    background-color: #c53131;
+    text-align: center;
+    position: relative;
+    bottom: 100px;
 }
