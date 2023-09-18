@@ -26,6 +26,8 @@ nav ul li {
     display: inline;
     margin-right: 20px;
     padding: 10px;
+    position: relative;
+    bottom: 70px;
     
 }
 
@@ -72,14 +74,12 @@ section {
 }
 
 h1{
-    background-color: #c53131;
     text-align: center;
     position: relative;
     bottom: 100px;
 }
 
-h3 sub{
-    background-color: #c53131;
+.sub{
     text-align: center;
     position: relative;
     bottom: 100px;
