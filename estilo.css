@@ -40,6 +40,7 @@ nav a {
 section {
     margin: 20px;
     padding: 20px;
+    border: solid black 1px;
 }
 
 /* Estilo para os projetos */
@@ -58,6 +59,7 @@ section {
     position: relative;
     left: 40%;
     bottom: 100px;
+    border: solid black 10px;
 }
 
 .corpo{
@@ -71,6 +73,7 @@ section {
 .faixa{
     background-color: #e0dede;
     padding: 10% 10% 10% 10%;
+    border-bottom: black solid 1px;
 }
 
 h1{
